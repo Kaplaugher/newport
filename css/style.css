@@ -1,0 +1,269 @@
+html, 
+body {
+    height: 100%;
+    font-size: 16px;
+    background-color: #F9F9F9;
+}
+
+/*NAVBAR*/
+
+
+/*BUTTONS*/
+
+.btn-lg,
+.btn-success-outline {
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid #BD2843;
+    transition: 0.5s;
+}
+
+.btn-lg:hover,
+.btn-lg:focus,
+.btn-lg:active,
+.btn-success-outline:hover,
+.btn-success-outline:focus,
+.btn-success-outline:active {
+    background-color: #BD2843;
+    border: 1px solid rgba(19, 128, 26, 0);
+    transition: 0.5s;
+}
+
+
+
+/*SECTION COVER*/
+
+#cover {
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/cover.jpg);
+
+    background-size: cover;
+    color: white; 
+    
+}
+
+.home-page {
+    margin: 14rem 5rem;
+    
+
+}
+
+/*SECTION ABOUT ME*/
+
+#about-me {
+    height: 100%;
+    background-color: #F9F9F9;
+    margin-top: 8rem;
+}
+
+.me-wrapper {
+    height: 100vh;
+}
+.me-photo {
+    background: url(../img/me.jpg);
+    background-size: cover;  
+    border-radius: 50%;
+    box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.33);
+
+    
+}
+
+.me-info {
+    margin-top: 15rem;
+}
+
+
+/*PROJECTS*/
+
+#projects {
+    height: 100%;
+    margin-top: 8rem;
+
+}
+
+.projects-title {
+    width: 100%;
+    text-align: center;
+
+}
+
+.card {
+    margin-left: 7rem;
+    margin-top: 3rem;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 400px;
+}
+
+
+/*PARALLAX*/
+
+#section-parallax {
+    text-align: center;
+    background: url(../img/computer.jpg) center repeat fixed;
+    padding: 140px 0;
+    background-size: cover;
+    color: white;
+    margin-top: 8rem;
+    
+}
+
+/*SERVICES*/
+
+#services {
+    margin-top: 10rem;
+}
+
+.services-section {
+  background-color: #F9F9F9;
+}
+
+.services-section hr {
+  border-bottom: 2px solid #4c9cef;
+  width: 42px;
+  margin: 0 auto;
+}
+
+.services-section .services-detail {
+    border-radius: 100%;
+    background-color: #ffffff;
+    box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.services-section .services-detail:hover {
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 16px 22px 0px rgba(90, 91, 95, 0.3);
+    top: -5px;
+}
+
+.services-section .services-detail i {
+   font-size: 42px;
+   margin-top: 88px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+
+
+/*footer*/
+
+.footer-section {
+    background: #141414;
+	background-repeat: repeat;
+    padding: 80px 0px;
+    color: #f8f8f8;
+}
+
+.footer-section p {
+    font-size: 14px;
+}
+
+.social-icon {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.social-icon:before,
+.social-icon:after {
+  content: " ";
+  display: table;
+}
+
+.social-icon:after {
+  clear: both;
+}
+
+.social-icon li {
+  display: inline-block;
+  margin: 2px 4px;
+}
+
+.social-icon li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  line-height: 66px;
+  color: #fff;
+  text-align: center;
+  border: 0 none;
+  border-radius: 50%;
+  font-size: 27px;
+  box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icon li a:hover {
+   box-shadow: 0px 8px 15px 0px rgba(90, 91, 95, 0.33);
+}
+
+.facebook {
+   background-color: #3b5998;
+}
+
+.twitter {
+   background-color: #1da1f2;
+}
+
+.google-plus {
+   background-color: #dd4b39;
+}
+
+.instagram {
+   background-color: #464545;
+}
+
+.linkedin {
+   background-color: #0077b5;
+}
+
+.pinterest {
+   background-color: #bd081c;
+}
+
+.youtube {
+   background-color: #cd201f;
+}
+
+.vimeo {
+   background-color: #1ab7ea;
+}
+
+.dribbble {
+   background-color: #ea4c89;
+}
+
+.behance {
+   background-color: #1769ff;
+}
+
+.flickr {
+   background-color: #ff0084;
+}
+
+.tumblr {
+   background-color: #35465c;
+}
+
+.foursquare {
+   background-color: #f94877;
+}
+
+.github {
+   background-color: #333333;
+}
+
+.skype {
+   background-color: #00aff0;
+}
+
