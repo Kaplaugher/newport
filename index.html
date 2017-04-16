@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>FMJ Quarter Horses</title>
+    <title>Kyle Plaugher</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,7 +14,7 @@
 
 <body>
 
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-dark fixed-top">
+    <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -53,11 +53,11 @@
     <section id="about-me">
         <div class="container">
             <div class="row me-wrapper">
-                <div class="col-sm-6 me-photo">
+                <div class="col-md-6 col-xs-12 me-photo">
 
                 </div>
-                <div class="col-sm-6 text-center me-info">
-                    <h1>About Me.</h1>
+                <div class="col-md-6 col-xs-12 text-center me-info">
+                    <h1>About <span class="red">ME</span></h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore deserunt amet quia maiores voluptatibus rem, quod, pariatur
                         eveniet placeat at architecto aspernatur, ducimus deleniti saepe commodi ipsa! Vero, eveniet ex!
@@ -78,38 +78,54 @@
     <section id="projects">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 projects-title">
-                    <h1>Recent Projects</h1>
-                    <hr></hr>
-                    <p> Dinkle bingus was here</p>
+                <div class="col-lg-12">
+                    <h1 class="page-header text-center">Recent <span class="red">PROJECTS</span>
+                    </h1>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src=../img/atlantavibes.png alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">AtlantaVibes</h4>
-                        <p class="card-text">AtlantaVibes is a Full-Stack application that aggregates data from the top ten music festivals into
-                            one easy to use website. AtlantaVibes lets users view, rate, comment and purchase tickets for
-                            their favorite festivals in Atlanta. Built with HTML, CSS, Javascript, React.js, Redux, Node.js,
-                            Express, SASS, NPM, MySQL, and AWS</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+            <!-- /.row -->
+
+            <!-- Project One -->
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="#">
+                        <img class="img-fluid" src="../img/atlantavibes.png" alt="">
+                    </a>
                 </div>
-                <div class="card" style="width: 25rem;">
-                    <img class="card-img-top" src=../img/geoScreenShot.png alt="Card image cap">
-                    <div class="card-block">
-                        <h4 class="card-title">Geography Game</h4>
-                        <p class="card-text">This is a geography game where you are asked a question and then you have to locate the answer (in
-                            the form of a marker) on the map. The catch is that the marker does not appear until you zoom
-                            into a specific level of the map. Once you locate the marker you can click on it. An info window
-                            will appear letting you know the name of the location you have found. You can then click the
-                            button within the info window to progress through the game. Built with React.js, NPM modules,
-                            Google Maps API and JavaScript.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
+                <div class="col-md-5">
+                    <h3>AtlantaVibes</h3>
+                    <h4>Full-Stack App</h4>
+                    <p>AtlantaVibes is a Full-Stack application that aggregates data from the top ten music festivals into one
+                        easy to use website. AtlantaVibes lets users view, rate, comment and purchase tickets for their favorite
+                        festivals in Atlanta. Built with HTML, CSS, Javascript, React.js, Redux, Node.js, Express, SASS,
+                        NPM, MySQL, and AWS</p>
+                    <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
                 </div>
             </div>
+            <!-- /.row -->
+
+            <hr>
+
+            <!-- Project Two -->
+            <div class="row">
+                <div class="col-md-7">
+                    <a href="#">
+                        <img class="img-fluid" src="../img/geoScreenShot.png" alt="">
+                    </a>
+                </div>
+                <div class="col-md-5">
+                    <h3>Geography Game</h3>
+                    <h4>Front-End App</h4>
+                    <p>This is a geography game where you are asked a question and then you have to locate the answer (in the
+                        form of a marker) on the map. The catch is that the marker does not appear until you zoom into a
+                        specific level of the map. Once you locate the marker you can click on it. An info window will appear
+                        letting you know the name of the location you have found. You can then click the button within the
+                        info window to progress through the game. Built with React.js, NPM modules, Google Maps API and JavaScript.</p>
+                    <a class="btn btn-primary" href="#">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+                </div>
+            </div>
+
+
 
         </div>
 
@@ -119,88 +135,73 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 offset-sm-2">
-                    <h1>My current <strong>SKILLS</strong></h1>
-                    
+                    <h1>My current <strong class="red">SKILLS</strong></h1>
+
                 </div>
             </div>
         </div>
     </section>
 
 
-    <section id="services" class="services-section section-space-padding">
-        <div class="container">        
-            <div class="row margin-top-30">
+    <section id="services">
 
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-detail">
-                        <i class="icon-screen-smartphone color-1"></i>
-                        <h3>Mobile Design</h3>
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-detail">
-                        <i class="icon-screen-tablet color-2"></i>
-                        <h3>Tablet Design</h3>
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-detail">
-                        <i class="fa fa-code color-3"></i>
-                        <h3>Clean Code</h3>
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-detail">
-                        <i class="icon-support color-4"></i>
-                        <h3>Full Support</h3>
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-detail">
-                        <i class="fa fa-html5 color-5"></i>
-                        <h3>HTML5 Design</h3>
-                        <hr>
-                    </div>
-                </div>
-
-                <div class="col-md-4 col-sm-6">
-                    <div class="services-detail">
-                        <i class="icon-bulb color-6"></i>
-                        <h3>CSS3 Design</h3>
-                        <hr>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-
-
-
-    <footer class="footer-section">
         <div class="container">
             <div class="row">
-               
-            <div class="col-md-12">
-              <ul class="social-icon margin-bottom-30">
-                 <li><a href="#" target="_blank" class="linkedin"><i class="fa fa-linkedin-square"></i></a></li>
-                 <li><a href="#" target="_blank" class="google-plus"><i class="fa fa-envelope"></i></a></li>
-                 <li><a href="#" target="_blank" class="dribbble"><i class="fa fa fa-github"></i></i></a></li>
-               </ul>
-          </div>
-              
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-code"></i>
+                        <h3>Full-Stack Development</h3>
+                        <p class="text-muted">CSS, JS, HTML, Node, React, Redux, MySQL</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-mobile "></i>
+                        <h3>Mobile Design</h3>
+                        <p class="text-muted">My web apps are fully compatible with all screen sizes! </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o"></i>
+                        <h3>Up to Date</h3>
+                        <p class="text-muted">I am always learning and keeping up to date with the latest and greatest technologies!</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart"></i>
+                        <h3>Made with Love</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+   <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>Copyright &copy; Kyle Plaugher</p>
+                </div>
+                <div class="col-sm-4">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-4 scroll-to-top-button">
+                    <a href="#cover"><i class="fa fa-3x fa-chevron-circle-up"></i></a>
+                </div>
+            </div>
         </div>
     </footer>
-
 
 
 
